@@ -15,6 +15,8 @@
 		5D49A7951B3773A50092FB08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D49A7941B3773A50092FB08 /* Images.xcassets */; };
 		5D49A7981B3773A50092FB08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D49A7961B3773A50092FB08 /* LaunchScreen.xib */; };
 		5D49A7A41B3773A50092FB08 /* GameExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D49A7A31B3773A50092FB08 /* GameExperimentTests.swift */; };
+		5D49A7AE1B37758D0092FB08 /* troll-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49A7AD1B37758D0092FB08 /* troll-face.png */; };
+		5D49A7B01B38C6FF0092FB08 /* sprite-ninja-ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49A7AF1B38C6FE0092FB08 /* sprite-ninja-ninja.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5D49A79D1B3773A50092FB08 /* GameExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D49A7A21B3773A50092FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D49A7A31B3773A50092FB08 /* GameExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameExperimentTests.swift; sourceTree = "<group>"; };
+		5D49A7AD1B37758D0092FB08 /* troll-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "troll-face.png"; sourceTree = "<group>"; };
+		5D49A7AF1B38C6FE0092FB08 /* sprite-ninja-ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sprite-ninja-ninja.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		5D49A7871B3773A50092FB08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D49A7AF1B38C6FE0092FB08 /* sprite-ninja-ninja.png */,
+				5D49A7AD1B37758D0092FB08 /* troll-face.png */,
 				5D49A7881B3773A50092FB08 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,10 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D49A7B01B38C6FF0092FB08 /* sprite-ninja-ninja.png in Resources */,
 				5D49A7981B3773A50092FB08 /* LaunchScreen.xib in Resources */,
 				5D49A7951B3773A50092FB08 /* Images.xcassets in Resources */,
 				5D49A78C1B3773A50092FB08 /* GameScene.sks in Resources */,
 				5D49A7931B3773A50092FB08 /* Main.storyboard in Resources */,
+				5D49A7AE1B37758D0092FB08 /* troll-face.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
